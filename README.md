@@ -1,26 +1,21 @@
 # Globe Audit Hub
 
-Профессиональная платформа бухгалтерских и аудиторских услуг мирового класса.
+Professional accounting & audit SaaS (RU / EN / BG).
 
-## Быстрый старт
+## Features
+- Multilingual RU/EN/BG + switcher
+- Auth + dashboard (demo + Clerk-ready)
+- DAI payments on Polygon (official `0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063`) + Stripe
+- AI chat 24/7 (OpenAI / xAI or offline fallback)
+- Admin panel
+- Serverless (Vercel / Netlify / Cloudflare)
 
+## Quick start
 ```bash
 npm install
+cp .env.example .env.local
 npm run dev
 ```
-
-Открой http://localhost:3000
-
-## Развёртывание (serverless)
-
-- **Vercel**: `vercel`
-- **Netlify**: `netlify deploy`
-- **Cloudflare Pages**: подключи репозиторий, build command `npm run build`, output `.next`
-
-## Стек
-
-- Next.js 15 + TypeScript + Tailwind CSS
-- Serverless-ready (standalone output)
-- Готов к i18n, Clerk, Stripe, DAI (Polygon), AI
+Open http://localhost:3000 → `/ru`
 
 © 2026 Globe Audit Hub
