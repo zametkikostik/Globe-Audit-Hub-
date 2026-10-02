@@ -1,21 +1,15 @@
 import type { Metadata } from "next";
-import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Globe Audit Hub — Профессиональная Бухгалтерия и Аудит",
-  description: "Международные бухгалтерские и аудиторские услуги. Россия, Европа, США, СНГ, Азия. AI-помощник 24/7, отчётность, DAI-платежи.",
+  title: "Globe Audit Hub — Professional Accounting & Audit",
+  description:
+    "International accounting and audit services. Russia, Europe, USA, CIS, Asia. AI 24/7, reporting, DAI payments.",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
-  return (
-    <html lang="ru">
-      <body className="antialiased bg-slate-950 text-white">
-        {children}
-      </body>
-    </html>
-  );
+}) {
+  return children;
 }
