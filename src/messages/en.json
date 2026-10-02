@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "services": "Services",
+    "regions": "Regions",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "login": "Sign in",
+    "register": "Sign up",
+    "logout": "Log out"
+  },
+  "hero": {
+    "title1": "Professional",
+    "title2": "Accounting",
+    "title3": "& Audit",
+    "subtitle": "Comprehensive accounting and audit services for Russia, Europe, USA, CIS, Asia and the world. AI assistant 24/7 · Reporting · DAI crypto payments",
+    "cta": "Get started",
+    "contact": "Contact us"
+  },
+  "services": {
+    "title": "Our Services",
+    "items": {
+      "accounting": { "title": "Bookkeeping", "desc": "Full accounting for sole proprietors and companies. Tax filing." },
+      "audit": { "title": "Audit", "desc": "Independent financial statement review. Risk identification." },
+      "tax": { "title": "Tax Planning", "desc": "Tax optimization. Regime selection." },
+      "ifrs": { "title": "International Reporting", "desc": "IFRS, GAAP, RAS. Reports for foreign partners." },
+      "blockchain": { "title": "Blockchain Verification", "desc": "Payment verification via Polygon. Immutable records." },
+      "ai": { "title": "AI Consultant 24/7", "desc": "Automated tax and accounting advice." }
+    }
+  },
+  "regions": { "title": "Service Regions" },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Leave a request — we reply within 15 minutes",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send request",
+    "sending": "Sending...",
+    "success": "Request sent!",
+    "successDesc": "We will contact you shortly."
+  },
+  "footer": {
+    "tagline": "Professional accounting & audit · Worldwide · 24/7 support",
+    "rights": "© 2026 Globe Audit Hub. All rights reserved."
+  },
+  "auth": {
+    "signin": "Sign in",
+    "signup": "Sign up",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "company": "Company",
+    "submitLogin": "Sign in",
+    "submitRegister": "Create account",
+    "noAccount": "No account?",
+    "hasAccount": "Already have an account?"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome",
+    "profile": "Profile",
+    "reports": "Reports",
+    "payments": "Payments",
+    "subscription": "Subscription",
+    "ai": "AI Assistant"
+  },
+  "payment": {
+    "title": "Payment",
+    "dai": "Pay with DAI (Polygon)",
+    "stripe": "Pay with card (Stripe)",
+    "amount": "Amount (DAI)",
+    "connect": "Connect MetaMask",
+    "send": "Send DAI",
+    "connected": "Wallet connected",
+    "txSuccess": "Transaction sent",
+    "txHash": "Transaction hash"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "users": "Clients",
+    "subscriptions": "Subscriptions",
+    "payments": "Payments",
+    "reports": "Reports"
+  },
+  "ai": {
+    "title": "AI Consultant",
+    "placeholder": "Ask about accounting, taxes or audit...",
+    "send": "Send",
+    "thinking": "Thinking..."
+  }
+}
